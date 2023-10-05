@@ -7,7 +7,7 @@ To write a program to find the square root of a number.
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm
+## Algorithm:
 1. Define a function.
 2. Assign number_iters = 100 in the function to perform 100 iteratios.
 3. Set i = 0.
@@ -15,16 +15,25 @@ To write a program to find the square root of a number.
 5. Return number
 
 ## Program:
-```
-/*
-Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
-*/
-```
 
+Program to find the square root for the given number(newton's method) using function.
+
+Developed by: SUBALAKSHMI.S
+
+RegisterNumber: 212222100051
+```py
+def squareroot(num1,iternum):
+    num2=float(num1)
+    for i in range(iternum):
+       num1=0.5*(num1+num2/num1)
+    print("Square root of the number:",num1)
+num1=int(input())
+iternum=100
+squareroot(num1,iternum)
+```
 ## Output:
-![gcd of two number](gcd.png)
+
+![image](https://github.com/Subalakshmisuresh/Square-root-of-a-number/assets/121957896/f9042ff4-6f9e-46a5-a53e-6dfdc66fc7be)
 
 
 ## Result:
